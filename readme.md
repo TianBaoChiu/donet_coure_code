@@ -1,6 +1,7 @@
 # DotNet API Course
 
 這個 repo 會記錄關於我學習 C# 以及 .NET 相關的程式碼。
+內容來自於Udemy上的相關課程
 
 ## 目錄
 
