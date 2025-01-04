@@ -1,0 +1,14 @@
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\bin\Debug\net8.0\HelloWorld.exe
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\bin\Debug\net8.0\HelloWorld.deps.json
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\bin\Debug\net8.0\HelloWorld.runtimeconfig.json
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\bin\Debug\net8.0\HelloWorld.dll
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\bin\Debug\net8.0\HelloWorld.pdb
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\obj\Debug\net8.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfo.cs
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\obj\Debug\net8.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\obj\Debug\net8.0\HelloWorld.dll
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\obj\Debug\net8.0\refint\HelloWorld.dll
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
+C:\Code\DotNetAPICourse\donet_coure_code\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll
