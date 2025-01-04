@@ -6,7 +6,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            // Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
 
             //// 1 byte is made up of 8 bits 00000000 - these bits can be used to store a number as follows
             // //// Each bit can be worth 0 or 1 of the value it is placed in

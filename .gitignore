@@ -1,0 +1,24 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio Code files
+.vscode/
+
+# Rider files
+.idea/
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Temporary files
+*.tmp
+*.temp
