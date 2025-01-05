@@ -43,29 +43,32 @@ namespace HelloWorld
             // 8 byte (64 bit) signed, where signed means it can be negative
             long myLong = -9223372036854775808;
 
-
+            //注意: float類型需要用f標識
             // 4 byte (32 bit) floating point number
             float myFloat = 0.751f;
             float mySecondFloat = 0.75f;
-
+            //注意:double類型需要用d標識
             // 8 byte (64 bit) floating point number
             double myDouble = 0.751;
             double mySecondDouble = 0.75d;
-
+            //注意：decimal類型需要用m標識
             // 16 byte (128 bit) floating point number
             decimal myDecimal = 0.751m;
             decimal mySecondDecimal = 0.75m;
 
-            // Console.WriteLine(myFloat - mySecondFloat);
-            // Console.WriteLine(myDouble - mySecondDouble);
-            // Console.WriteLine(myDecimal - mySecondDecimal);
+            Console.WriteLine(myFloat - mySecondFloat);
+            Console.WriteLine(myDouble - mySecondDouble);
+            Console.WriteLine(myDecimal - mySecondDecimal);
 
+            //注意：char類型需要用單引號括起來
+            char myChar = 'A';
+            Console.WriteLine(myChar);
 
-
+            //注意：string類型需要用雙引號括起來
             string myString = "Hello World";
-            // Console.WriteLine(myString);
+            Console.WriteLine(myString);
             string myStringWithSymbols = "!@#$@^$%%^&(&%^*__)+%^@##$!@%123589071340698ughedfaoig137";
-            // Console.WriteLine(myStringWithSymbols);
+            Console.WriteLine(myStringWithSymbols);
 
             bool myBool = true;
         }
