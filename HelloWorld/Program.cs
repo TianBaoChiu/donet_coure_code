@@ -6,7 +6,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
 
             //// 1 byte is made up of 8 bits 00000000 - these bits can be used to store a number as follows
             // //// Each bit can be worth 0 or 1 of the value it is placed in
@@ -56,9 +56,9 @@ namespace HelloWorld
             decimal myDecimal = 0.751m;
             decimal mySecondDecimal = 0.75m;
 
-            Console.WriteLine(myFloat - mySecondFloat);
-            Console.WriteLine(myDouble - mySecondDouble);
-            Console.WriteLine(myDecimal - mySecondDecimal);
+            // Console.WriteLine(myFloat - mySecondFloat);
+            // Console.WriteLine(myDouble - mySecondDouble);
+            // Console.WriteLine(myDecimal - mySecondDecimal);
 
             //注意：char類型需要用單引號括起來
             char myChar = 'A';
@@ -66,11 +66,37 @@ namespace HelloWorld
 
             //注意：string類型需要用雙引號括起來
             string myString = "Hello World";
-            Console.WriteLine(myString);
+            // Console.WriteLine(myString);
             string myStringWithSymbols = "!@#$@^$%%^&(&%^*__)+%^@##$!@%123589071340698ughedfaoig137";
-            Console.WriteLine(myStringWithSymbols);
+            // Console.WriteLine(myStringWithSymbols);
 
             bool myBool = true;
+
+
+            //array，固定靜態大小，不能動態增加或減少，可以用List來代替
+
+            //after  C# 版本 11 或更新版本可以用這個 List Patterns
+            int[] myIntArray1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+            //舊版的需要使用{}來定義，一旦省略new int[]，就不能指定長度且需要再宣告時同時初始化
+            //int[] myIntArray = {1,2,3 ,4, 5, 6, 7, 8, 9, 10};
+            Console.WriteLine(myIntArray1[0]);
+
+            //使用new 來定義可以指定長度，並且可以直接指派元素
+            // int[] myIntArray = new int[10];
+            int[] myIntArray2 = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            Console.WriteLine(myIntArray2[1]);
+
+
+            //2D array
+            int[,] my2DArray = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
+
+            //List，可以動態增加或減少，但是不能用[]來取值，只能用Add()來增加
+            List<int> myList = new List<int> { 1, 2, 3, 4, 5 };
+
+
+
+
         }
     }
 }
