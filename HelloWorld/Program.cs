@@ -70,9 +70,6 @@ namespace HelloWorld
             string myStringWithSymbols = "!@#$@^$%%^&(&%^*__)+%^@##$!@%123589071340698ughedfaoig137";
             // Console.WriteLine(myStringWithSymbols);
 
-            bool myBool = true;
-
-
             //array，固定靜態大小，不能動態增加或減少，可以用List來代替
 
             //after  C# 版本 11 或更新版本可以用這個 List Patterns
@@ -91,9 +88,31 @@ namespace HelloWorld
             //2D array
             int[,] my2DArray = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
 
-            //List，可以動態增加或減少，但是不能用[]來取值，只能用Add()來增加
-            List<int> myList = new List<int> { 1, 2, 3, 4, 5 };
+            Console.WriteLine("my2DArray[1,1] " + my2DArray[1, 1]);
 
+            int[,,] my3DArray = new int[2, 2, 3] { { { 1, 2, 3 }, { 4, 5, 6 } }, { { 7, 8, 9 }, { 10, 11, 12 } } };
+
+            Console.WriteLine("my3DArray[1,1,1] " + my3DArray[1, 1, 1]);
+
+            //List，可以動態增加或減少，但是不能用[]來取值，只能用Add()來增加
+            // List<int> myList = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            List<string> myList = new List<string>();
+            myList.Add("apple");
+            myList.Add("banana");
+            Console.WriteLine("myList[0] = " + myList[0]);
+
+            //enumerate，可以用foreach來遍歷，IEnumerable<string>是一個接口，可以用來定義一個集合，但是不能用來實例化一個對象
+            IEnumerable<string> myEnumerable = myList;
+            //ToList()可以將IEnumerable轉換為List
+            List<string> mySecondList = myEnumerable.ToList();
+
+
+            //dictionary，key-value pair，key不能重複，一樣使用Add()來增加
+            Dictionary<string, int> myDic = new Dictionary<string, int>();
+            myDic.Add("apple", 1);
+            myDic.Add("banana", 2);
+            Console.WriteLine("myDic[apple] = " + myDic["apple"]);
 
 
 
